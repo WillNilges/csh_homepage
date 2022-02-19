@@ -1,0 +1,55 @@
+body {
+    font-family: 'VT323', monospace;
+    background-color: #444444;
+    width: 70%;
+    float: center;
+    margin: auto;
+    max-width: 960px;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+}
+
+a { color: #99AACC;}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.terminal {
+    width: 600px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+	color: #FFF;
+	background-color: #000;	
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0F0;
+}
+
+.centerWhite {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+	color: #FFF;
+}
+
+.pointIdLikeToMake {
+    text-align: center;
+
+    font-weight: bold;
+    color: #FFF;
+    background-color: #777;
+}
+
+.listItems {
+    font-size: 40px;
+    color: #99AACC;
+}
