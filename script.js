@@ -1,5 +1,5 @@
-    let imgArr = ["awk.png","corey.png","arch.png","gun.jpg","horse.png", "windowsME.webp"];
-	let txtArr = ["Every FUCKING time, man.", "chair.png", "My ICBM will ONLY run:", "*Whenever I see a computer*", "Hey man, don't alert the-", "'We got Linux at home.' *Linux at Home*"]
+    let imgArr = ["awk.png","corey.png","arch.png","gun.jpg","horse.png", "windowsME.webp", "kube_moment.jpg", "e.png"];
+	let txtArr = ["Every FUCKING time, man.", "chair.png", "My ICBM will ONLY run:", "*Whenever I see a computer*", "Hey man, don't alert the-", "'We got Linux at home.' *Linux at Home*", "Oops, I OOM'ed :E", "When you @channel in #general and the RTPs and the when you and the RTPs when in general you @channel @channel in the @channel and the @channel in my RTP"]
 
     function displayImg(){
         let num = Math.floor(Math.random() * (imgArr.length));
@@ -11,6 +11,11 @@
 		document.getElementById("plugImage").src = image.image;
 		document.getElementById("sponsorMsg").textContent = image.caption;
 		document.getElementById("plugImage").style = "height: 200px;"
+	}
+
+	function notAuthedVert() {
+		document.getElementById("plugVert").style = "display:none"; // Fuck it, just hide the ad.
+		//document.getElementById("vimOnFire").style = "align: center";
 	}
 
 	function wallpaper() {
