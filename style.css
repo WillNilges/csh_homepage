@@ -32,6 +32,15 @@ footer {
 	border-color: #0F0;
 }
 
+.centerFull {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+}
+
 .centerWhite {
 	display: block;
 	margin-left: auto;
@@ -53,3 +62,4 @@ footer {
     font-size: 40px;
     color: #99AACC;
 }
+
