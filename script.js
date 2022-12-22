@@ -12,8 +12,8 @@ ________/\\\\\\\\\\\\\\\\\\__/\\\\\\________/\\\\\\_______/\\\\\\\\\\_______/\\\
 
 `, "fone-family: monospace;")
 
-    let imgArr = ["awk.png","chair2022_2.JPG","arch.png","gun.jpg","horse.png", "windowsME.webp", "kube_moment.jpg", "e.png"];
-	let txtArr = ["Every FUCKING time, man.", "chair.png", "My ICBM will ONLY run:", "*Whenever I see a computer*", "Hey man, don't alert the-", "'We got Linux at home.' *Linux at Home*", "Oops, I OOM'ed :E", "When you @channel in #general and the RTPs and the when you and the RTPs when in general you @channel @channel in the @channel and the @channel in my RTP"]
+    let imgArr = ["awk.png","arch.png","gun.jpg","horse.png", "windowsME.webp", "kube_moment.jpg", "e.png"];
+	let txtArr = ["Every FUCKING time, man.", "My ICBM will ONLY run:", "*Whenever I see a computer*", "Hey man, don't alert the-", "'We got Linux at home.' *Linux at Home*", "Oops, I OOM'ed :E", "When you @channel in #general and the RTPs and the when you and the RTPs when in general you @channel @channel in the @channel and the @channel in my RTP"]
 
     function displayImg(){
         let num = Math.floor(Math.random() * (imgArr.length));
