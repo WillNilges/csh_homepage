@@ -30,6 +30,10 @@ footer {
 	border-width: 1px;
 	border-style: solid;
 	border-color: #0F0;
+    /* Center the terminal...*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .centerFull {

@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
     <link rel="stylesheet"  href="style.css"/>
     <link rel="icon" type="image/x-icon" href="res/favicon.png">
-	<script src="script.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>
@@ -17,7 +17,7 @@
     </h1>
 	<div class="centerFull">
 			<!--<img src="res/archbadge.png" style="height:60px">-->
-			<img src="res/kdepatronbadge.png" style="height:60px">
+            <!--<img src="res/kdepatronbadge.png" style="height:60px">-->
 			<img src="res/vim.gif">
 			<img src="res/wilnil_takeone.gif">
 			<!--<img src="res/colors.gif">-->
@@ -40,7 +40,8 @@
     <br>
     <p style="font-weight:bold;color:#FFF;"> Here are some links:</p>
     <div class="listItems">
-			<ul style="list-style: none;">
+			<ul style="list-style: url('res/vim_on_fire.gif');">
+                <li><a href="https://github.com/willnilges/">Click here for free software downloads!</a></li>
 				<li><a href="status.html">CSH Lobby Status Board</a></li>
 			<!--<li><a href="https://p.datadoghq.com/sb/44f16805b-4c2038873e353ef6fbb5cd49d9d2b1ac">CSH Lobby Status Board</a></li>-->
 				<li><a href="https://github.com/openshift/okd/releases">OKD Release Page</a></li>
@@ -50,36 +51,16 @@
 				<li id="playstation"><a href="https://youtu.be/zocRi2JaAyU">Click Here For A Free PlayStation 2!</a></li>
 				<li id="vista_sucks"><a href="https://youtu.be/9rmevy8B_Wc">Download Microsoft© Windows Vista™ Now!</a></li>
 				<li id="cat_morse"><a href="https://youtu.be/8dVQ0813KVM">-.-. .... --- --</a></li>
+                <li id="make_some_bitches"><a href="https://members.csh.rit.edu/~wilnil/Lec04_Make.pdf">Make tutorial 2021 Cracked Working No Visur™</a></li>
 			</ul>
 	</div>
 
-	<h1>I'm so sick of looking for this.</h1>
+    <h1>For cool hax, paste this into your terminal!</h1>
     <div id="oh-my-zsh" style="font-size:24px;color:white;font-family:monospace;">
-        <table>
-        <thead>
-        <tr>
-        <th style="text-align:center">Method</th>
-        <th style="text-align:center">Command</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-        <td style="text-align:left"><strong>curl</strong></td>
-        <td style="text-align:left"><code>sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</code></td>
-        </tr>
-        <tr>
-        <td style="text-align:left"><strong>wget</strong></td>
-        <td style="text-align:left"><code>sh -c &quot;$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</code></td>
-        </tr>
-        <tr>
-        <td style="text-align:left"><strong>fetch</strong></td>
-        <td style="text-align:left"><code>sh -c &quot;$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</code></td>
-        </tr>
-        </tbody>
-        </table>
+        <code>sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</code>
     </div>
     <img id="plugVert" src="https://plug-dev.csh.rit.edu/vert" style="align:left; height: 500px" onerror="notAuthedVert()">
-    <img id="vimOnFire" width="70%" style="align: center;" src="res/vim_on_fire.gif">
+    <img class="centerWhite" id="vimOnFire" width="70%" style="align: center;" src="res/vim_on_fire.gif">
     <footer>
     <hr>
 	<p><a href="https://nilges.me">If you want to see my blog, click here.</a></p>

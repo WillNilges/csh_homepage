@@ -42,10 +42,39 @@ ________/\\\\\\\\\\\\\\\\\\__/\\\\\\________/\\\\\\_______/\\\\\\\\\\_______/\\\
 	async function enjoyingYourStay() {
 		await new Promise(r => setTimeout(r, 4000));
 		let promptLine = "wilnil@boalisk ~/ $: # ";
-		let stay = [ "Enjoying your stay?", "I sure hope so, I worked very hard on this :)", "So, what do you like to do on the weekends?", "Maybe we could catch a movie?", "Or write some shitty Rust code?"];
-		let computerRant = [ "You know, I really hate computers.", "Like, a lot.", "I honestly don't fucking know why I became a CE.", "This is bullshit.", "Fuck you, RIT.", "Eat my ass."];
-
-		series = [stay, computerRant];
+		series = [
+            [
+                "Enjoying your stay?",
+                "I sure hope so, I worked very hard on this :)",
+                "So, what do you like to do on the weekends?", 
+                "Maybe we could catch a movie?",
+                "Or write some shitty Rust code?"
+            ],
+            [
+                "You know, I really hate computers.",
+                "Like, a lot.",
+                "I honestly don't fucking know why I became a CE.",
+                "This is bullshit.",
+                "Fuck you, RIT.",
+                "Eat my ass."
+            ],
+            [
+                "Chom.",
+                "Chom chom chom.",
+                "Chom chom chom chom chom.",
+                "skz."
+            ],
+            [
+                "systemctl stop computernetes",
+                "fuck",
+                "sudo sytstemctl stop computernetes",
+                "Stopping computernetes.............",
+                "...",
+                "...",
+                "Stopping Computernetes™",
+                " "
+            ]
+        ];
 
         let num = Math.floor(Math.random() * (series.length));
 		
@@ -54,7 +83,7 @@ ________/\\\\\\\\\\\\\\\\\\__/\\\\\\________/\\\\\\_______/\\\\\\\\\\_______/\\\
 		let keystrokePeriod = 50; // Delay between keystrokes. Smaller = type faster.
 
 		let cmdPrompt = document.getElementById("cmdPrompt");
-		for (let i = 0; i < stay.length; i++) {
+		for (let i = 0; i < series[num].length; i++) {
 			let paragraph = document.createElement("p");
 			cmdPrompt.appendChild(paragraph);
 			paragraph.textContent += promptLine;
